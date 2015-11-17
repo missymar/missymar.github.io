@@ -655,7 +655,7 @@ a:focus {
 }
 .portfolio-grid div {
     display: block;
-
+	
     opacity: 1;
     padding: 0px;
 
@@ -694,7 +694,7 @@ a:focus {
 	transition: all 0.4s ease 0s;
 }
 .portfolio-link .info h2{
-	color:white;
+	color:#fe6756;
 	font-weight:100;
 	text-transform:uppercase;
 	font-size:30px;
@@ -708,11 +708,11 @@ a:focus {
     color:white;
 }
 .portfolio-link.hover .info, .portfolio-link.active .info{
-	top:120px;
+	top:100px;
 	opacity:1;
 }
 .portfolio-link.hover img, .portfolio-link.active .img{
-	opacity:0.6;
+	opacity:0;
 	-webkit-transform:scale(1.3) rotate(3deg);
 	-moz-transform:scale(1.3)rotate(3deg);
 	-ms-transform:scale(1.3)rotate(3deg);
