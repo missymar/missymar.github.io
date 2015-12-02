@@ -161,7 +161,6 @@ a:focus {
 }
 
 .navbar .company{
-	color: black;
 	padding-left:15px;
 	-webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -1132,6 +1131,7 @@ section:nth-child(odd) {
 }
 #contact .hero p{
 	color:white;
+	font-family: Pier Sans;
 }
 #contact .btn-submit {
 	background: #fa4f3e;
