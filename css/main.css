@@ -161,6 +161,7 @@ a:focus {
 }
 
 .navbar .company{
+	color: black;
 	padding-left:15px;
 	-webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -1248,6 +1249,7 @@ footer .copy {
 	width: 400px;
 	margin: 250px auto;
 	text-align: center;
+	font-family: Parisienne;
 }
 
 #preloader .border{
