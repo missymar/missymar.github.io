@@ -1108,7 +1108,7 @@ section:nth-child(odd) {
 	display: none;
 }
 
-#welcome .introduction-table .row{
+#about .introduction-table .row{
 	margin-bottom:10px;
 }
 #clients{
