@@ -32,21 +32,6 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-        <script>
-		    $(document).ready(function(){
-		        var h = window.location.hash;
-		        if (h) {
-		            var headerH = $('#navigationMenu').outerHeight();
-		            $('html, body').stop().animate({
-		                scrollTop : $(h).offset().top - headerH + "px"
-		            }, 1200, 'easeInOutExpo');
-
-		            event.preventDefault();
-		        }
-		    });
-		</script>
-
 		<script>
 		    $(document).ready(function () {
 		        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
@@ -59,6 +44,7 @@
 		        }
 		    });
 		</script>
+        
 
     </head>
     
