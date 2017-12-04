@@ -576,7 +576,15 @@
 	<script type="text/javascript" src="js/main.js"></script>
 
 	<script>
-		$(document).ready(function(){		
+		$(document).ready(function () {
+            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+            if (window.location.hash && isChrome) {
+                setTimeout(function () {
+                    var hash = window.location.hash;
+                    window.location.hash = "";
+                    window.location.hash = hash;
+                }, 300);
+            }		
 			SLAMR.preloader();		
 			SLAMR.nav();	
 			SLAMR.parallax(true);							
@@ -626,15 +634,7 @@
 	            "pContainer": ".portfolio-container",
 	            "close"		: ".portfolio-close",
 	            "carousel"	: ".owl-portfolio"
-	      	});	
-	      	            var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-            if (window.location.hash && isChrome) {
-                setTimeout(function () {
-                    var hash = window.location.hash;
-                    window.location.hash = "";
-                    window.location.hash = hash;
-                }, 300);
-            }						
+	      	});							
 		}); //document ready
 	</script>
     </body>   
